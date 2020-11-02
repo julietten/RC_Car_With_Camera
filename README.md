@@ -81,8 +81,8 @@ Pin A1: connected to data pin of receiver
 ## Files and descriptions:
 
 
-arduino_car_4wheel_steer: contains code used for the arduino in the car
+**arduino_car_4wheel_steer:** contains code used for the arduino in the car
 
-arduino_controller: contains code used for the arduino in the controller
+**arduino_controller:** contains code used for the arduino in the controller
 
-rpi: contains code used for the raspberry pi in the car
+**rpi:** contains code used for the raspberry pi in the car
