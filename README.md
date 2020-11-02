@@ -7,9 +7,7 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 
 
 - Arduino Pro Mini in the car: used for driving and steering functionality and receiving signals from the Arduino in the controller
-
 - Arduino Pro Mini in the controller: used for sending signals to the Arduino in the car based on the inputs from the controller
-
 - Raspberry Pi 3B in the car: used primarily for camera streaming
 
 
