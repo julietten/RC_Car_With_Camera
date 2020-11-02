@@ -6,17 +6,17 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 ## Microcontrollers:
 
 
-- **Arduino Pro Mini in the car**: used for driving and steering functionality and receiving signals from the Arduino in the controller
-- **Arduino Pro Mini in the controller**: used for sending signals to the Arduino in the car based on the inputs from the controller
-- **Raspberry Pi 3B in the car**: used primarily for camera streaming
+- **Arduino Pro Mini in the car:** used for driving and steering functionality and receiving signals from the Arduino in the controller
+- **Arduino Pro Mini in the controller:** used for sending signals to the Arduino in the car based on the inputs from the controller
+- **Raspberry Pi 3B in the car:** used primarily for camera streaming
 
 
 ## Prerequisites:
 
 
-- **Arduino in the controller**: C++ libraries SPI.h and RH_ASK.h
-- **Arduino in the car**: C++ libraries SPI.h and RH_ASK.h
-- **Raspberry Pi**: Python packages RPi.GPIO, gpiozero, time, and os
+- **Arduino in the controller:** C++ libraries SPI.h and RH_ASK.h
+- **Arduino in the car:** C++ libraries SPI.h and RH_ASK.h
+- **Raspberry Pi:** Python packages RPi.GPIO, gpiozero, time, and os
 
 
 ## Microcontroller pinouts:
