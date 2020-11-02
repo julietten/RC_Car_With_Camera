@@ -1,7 +1,4 @@
 # rc_car_controller_camera
-
-RC Car
-
 This repository provides code for 2 Arduinos and a Raspberry Pi that allows an RC to transmit signals, drive and steer, and camera stream over wifi.
 
 Microcontrollers:
