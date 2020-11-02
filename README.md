@@ -29,7 +29,9 @@ This repository provides code for 2 Arduino Pro Minis and a Raspberry Pi 3B that
 ### Arduino in the controller:
 
 Pin 17: connected to the button pin on the joystick
+
 Pin 5: connected to button 1
+
 Pin 6: connected to button 2
 
 Pin 3: connected to switch 1
