@@ -6,11 +6,11 @@ This repository provides code for 2 Arduino Pro Minis and a Raspberry Pi 3B that
 ## Microcontrollers:
 
 
-Arduino Pro Mini in the car: used for driving and steering functionality and receiving signals from the Arduino in the controller
+- Arduino Pro Mini in the car: used for driving and steering functionality and receiving signals from the Arduino in the controller
 
-Arduino Pro Mini in the controller: used for sending signals to the Arduino in the car based on the inputs from the controller
+- Arduino Pro Mini in the controller: used for sending signals to the Arduino in the car based on the inputs from the controller
 
-Raspberry Pi 3B in the car: used primarily for camera streaming
+- Raspberry Pi 3B in the car: used primarily for camera streaming
 
 
 ## Prerequisites:
@@ -29,9 +29,7 @@ Raspberry Pi 3B in the car: used primarily for camera streaming
 ### Arduino in the controller:
 
 Pin 17: connected to the button pin on the joystick
-
 Pin 5: connected to button 1
-
 Pin 6: connected to button 2
 
 Pin 3: connected to switch 1
