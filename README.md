@@ -14,9 +14,9 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 ## Prerequisites:
 
 
-- For the Arduino in the controller: C++ libraries SPI.h and RH_ASK.h
-- For the Arduino in the car: C++ libraries SPI.h and RH_ASK.h
-- For the Raspberry Pi: Python packages RPi.GPIO, gpiozero, time, and os
+- **Arduino in the controller**: C++ libraries SPI.h and RH_ASK.h
+- **Arduino in the car**: C++ libraries SPI.h and RH_ASK.h
+- **Raspberry Pi**: Python packages RPi.GPIO, gpiozero, time, and os
 
 
 ## Microcontroller pinouts:
