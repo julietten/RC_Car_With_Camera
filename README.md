@@ -1,9 +1,11 @@
 # rc_car_controller_camera
 
 RC Car
+
 This repository provides code for 2 Arduinos and a Raspberry Pi that allows an RC to transmit signals, drive and steer, and camera stream over wifi.
 
 Microcontrollers:
+
 Arduino Pro Mini in the car: used for driving and steering functionality and receiving signals from the Arduino in the controller
 Arduino Pro Mini in the controller: used for sending signals to the Arduino in the car based on the inputs from the controller
 Raspberry Pi 3B in the car: used primarily for camera streaming
@@ -39,6 +41,7 @@ Raspberry Pi in the Car:
 
 
 Files and descriptions:
+
 arduino_car_4wheel_steer: contains code used for the arduino in the car
 arduino_controller: contains code used for the arduino in the controller
 rpi: contains code used for the raspberry pi in the car
