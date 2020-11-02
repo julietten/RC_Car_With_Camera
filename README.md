@@ -16,11 +16,11 @@ Raspberry Pi 3B in the car: used primarily for camera streaming
 ## Prerequisites:
 
 
-For the Arduino in the controller: C++ libraries SPI.h and RH_ASK.h
+- For the Arduino in the controller: C++ libraries SPI.h and RH_ASK.h
 
-For the Arduino in the car: C++ libraries SPI.h and RH_ASK.h
+- For the Arduino in the car: C++ libraries SPI.h and RH_ASK.h
 
-For the Raspberry Pi: Python packages RPi.GPIO, gpiozero, time, and os
+- For the Raspberry Pi: Python packages RPi.GPIO, gpiozero, time, and os
 
 
 ## Microcontroller pinouts:
