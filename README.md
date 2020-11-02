@@ -28,11 +28,9 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 
 ### Arduino in the controller:
 
-Pin 17: connected to the button pin on the joystick
-
-Pin 5: connected to button 1
-
-Pin 6: connected to button 2
+- Pin 17: connected to the button pin on the joystick
+- Pin 5: connected to button 1
+- Pin 6: connected to button 2
 
 Pin 3: connected to switch 1
 
