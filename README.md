@@ -26,7 +26,7 @@ For the Raspberry Pi: Python packages RPi.GPIO, gpiozero, time, and os
 ## Microcontroller pinouts:
 
 
-##### Arduino in the controller:
+### Arduino in the controller:
 
 Pin 17: connected to the button pin on the joystick
 
@@ -45,7 +45,7 @@ Pin A2: connected to joystick pin for y direction
 Pin A3: connected to data pin of transmitter
 
 
-##### Arduino in the Car:
+### Arduino in the Car:
 
 
 Pin 10: connected enable A on motor driver 1
@@ -75,7 +75,7 @@ Pin 2: connected to input 4 on motor driver 2
 Pin A1: connected to data pin of receiver
 
 
-##### Raspberry Pi in the Car:
+### Raspberry Pi in the Car:
 
 
 ## Files and descriptions:
