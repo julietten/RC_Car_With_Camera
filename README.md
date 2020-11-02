@@ -1,4 +1,4 @@
-# rc_car_controller_camera
+# RC Car with Camera Streaming
 
 This repository provides code for 2 Arduinos and a Raspberry Pi that allows an RC to transmit signals, drive and steer, and camera stream over wifi. C++ and Python are both used in the code files.
 
