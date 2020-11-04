@@ -15,15 +15,15 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 - **Raspberry Pi:** Python packages RPi.GPIO, gpiozero, time, and os
 
 ## Hardware Components:
-- (refer to the Schematics folder to see the connections)
+(refer to the Schematics folder to see the connections)
 
-- **Controller:**
+### Controller:
 - 433 MHz transmitter (in a transmitter and receiver pair)
 - joystick
 - 2x push buttons
 - 2x switches
 
-- **Car:**
+### Car:
 - 433 MHz receiver (in a transmitter and receiver pair)
 - 2x L298N motor drivers
 - 4x motors
