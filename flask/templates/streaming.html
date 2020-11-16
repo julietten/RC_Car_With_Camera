@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<style>
+  	  body {
+        background-color: #c2ae82;
+        font-family: georgia;
+      }
+      .sidebyside {
+       	display: flex;
+      }
+      #date {
+       	padding-top: 0%;
+       	padding-right: 70%;
+       	font-family: arial-black;
+       	color: white;
+       	font-weight: bold;
+      }
+      @keyframes animated {
+        0% {box-shadow: 0 0 0 0 rgba(255,255,255,0.5);}
+        100% {box-shadow: 0 0 0 15px rgba(255,255,255,0);}
+      }
+      .buttons {
+        background-color: #c99336;
+        color: white;
+        border: 5px outset #b5842f;
+        border-radius: 10px;
+        padding: 4%;
+        font-size: 10px;
+        font-weight: bold;
+      }
+      .buttons:hover {
+        animation: animated 1s infinite;
+        background-color: #b5842f;
+        border-color: #a6792b;
+      }
+      .input_rows {
+      	display: flex;
+       	margin: auto;
+      }
+      .input_boxes {
+       	padding: 1%;
+       	background-color: #8a7b5c;
+        margin: auto;
+        border: 5px outset #ad9b74;
+        text-align: center;
+        border-radius: 10px;
+      }
+      .inputs {
+       	padding: 2%;
+       	border-color: #8a7b5c;
+       	background-color: #8a7b5c;
+      }
+      ::placeholder {
+       	color: white;
+       	opacity: 0.6;
+      }
+      .inputs:hover {
+       	animation: animated 1s infinite;
+      }
+      #seps {
+       	padding: 1%;
+      }
+      #tips {
+       	padding-top: 1%;
+      }
+      #tips_button {
+       	padding: 1%;
+      }
+      #popup{
+       	visibility: hidden;
+      }
+      button + #popup:active, button:focus + #popup{
+      	visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+  	<div class="sidebyside">
+	  <p id="date">{{date}}</p>
+	  <a href="/submit"><input type="button" name="button2" value="logoff of Raspberry Pi" class="buttons"></a>
+    </div>
+    <div class="input_rows">
+      <div class=input_boxes>
+	  	<textarea placeholder="Enter location" rows="2" cols="44" class="inputs"></textarea>
+	  </div>
+	  <div class=input_boxes>
+	  	<textarea placeholder="Enter animals being monitored" rows="2" cols="44" class="inputs"></textarea>
+	  </div>
+	</div>
+	<div class="input_rows">
+	  <div class=input_boxes>
+	    <textarea placeholder="Enter description" rows="30" cols="44" class="inputs"></textarea>
+	  </div>
+	  <div class=input_boxes>
+	    <textarea placeholder="Enter animal observations" rows="30" cols="44" class="inputs"></textarea>
+	  </div>
+	</div>
+	<div id="tips">
+	  <button class="buttons" id="tips_button">|||</button>
+	  <nav id="popup">
+	  <button onclick="alert('For best usage, split your screen between this page and vlc viewer. To set up VLC viewer, click the Media tab, then Open Network Stream, enter your Raspberry Pi IP address, and click play. To end the SSH connection between your monitor and Raspberry Pi, click the <q>logoff of Raspberry Pi</q> button on the top right.')">Tips</button>
+	</div>
+  </body>
+</html>
