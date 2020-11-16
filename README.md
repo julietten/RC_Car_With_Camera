@@ -1,6 +1,6 @@
 # RC Car with Camera Streaming
 
-This repository was developed for Case Western Reserve University's ECSE 398 senior project course. Contributers to this project are Juliette Naugle, Michael Heeschen, and Avery Gould. The project is to build an RC car that transmits signals, drives and steers, and camera streams over wifi. This repository provides code for two Arduino Pro Minis and a Raspberry Pi 3B. C++ and Python are both used in the code files.
+This repository was developed for Case Western Reserve University's ECSE 398 senior project course. Contributers to this project are Juliette Naugle, Michael Heeschen, and Avery Gould. The project is to build an RC car that transmits signals, drives and steers, and camera streams over wifi. This repository provides code for two Arduino Pro Minis and a Raspberry Pi 3B along with a user-friendly Flask application to help instruct the user on setting up their own RC car and document their observations while streaming. C++, Python, and HTML with internal CSS are used in the code files.
 
 ## Microcontrollers:
 
@@ -13,6 +13,7 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 - **Arduino in the controller:** C++ libraries SPI.h and RH_ASK.h
 - **Arduino in the car:** C++ libraries SPI.h and RH_ASK.h
 - **Raspberry Pi:** Python packages RPi.GPIO, gpiozero, time, and os
+- **Flask Application:** Python packages flask, paramiko, os, and datetime
 
 ## Hardware Components:
 (refer to the Schematics folder to see the connections)
@@ -62,8 +63,12 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 
 ## Files and descriptions:
 
-**arduino_car_4wheel_steer:** contains code used for the arduino in the car
+**arduino_car_4wheel_steer.cpp:** contains C++ code used for the Arduino in the car
 
-**arduino_controller:** contains code used for the arduino in the controller
+**arduino_controller.cpp:** contains C++ code used for the Arduino in the controller
 
-**rpi:** contains code used for the raspberry pi in the car
+**rpi.py:** contains Python code used for the Raspberry Pi in the car
+
+**flask folder contains:** 
+- stream_webpage.py: user-friendly Flask application Python file
+- templates folder: contains the setup.html and streaming.html templates for the Flask application
