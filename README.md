@@ -88,4 +88,4 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 - Pin A1: connected to data pin of receiver
 
 ### Raspberry Pi in the Car:
--Attach the camera module to the camera port
+- Attach the camera module to the camera port
