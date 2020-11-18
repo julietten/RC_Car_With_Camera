@@ -4,9 +4,9 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 
 ## Contents:
 
-1. Microcontrollers
-2. Prerequisites
-3. Files and Descriptions
+1. Files and Descriptions
+2. Software Prerequisites
+3. Microcontrollers
 4. Hardware Components\
     a. Controller\
     b. Car
@@ -15,20 +15,7 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
     b. Arduino in the Car\
     c. Raspberry Pi in the Car
 
-## 1. Microcontrollers:
-
-- **Arduino Pro Mini in the car:** used for driving and steering functionality and receiving signals from the Arduino in the controller
-- **Arduino Pro Mini in the controller:** used for sending signals to the Arduino in the car based on the inputs from the controller
-- **Raspberry Pi 3B in the car:** used primarily for camera streaming
-
-## 2. Prerequisites:
-
-- **Arduino in the controller:** C++ libraries SPI.h and RH_ASK.h
-- **Arduino in the car:** C++ libraries SPI.h and RH_ASK.h
-- **Raspberry Pi:** Python packages time and os
-- **Flask Application:** Python packages flask, paramiko, os, and datetime
-
-## 3. Files and Descriptions:
+## 1. Files and Descriptions:
 
 **arduino_car_4wheel_steer.cpp:** contains C++ code used for the Arduino in the car
 
@@ -39,6 +26,19 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 **flask folder contains:** 
 - stream_webpage.py: user-friendly Flask application Python file
 - templates folder: contains the setup.html and streaming.html templates for the Flask application
+
+## 2. Software Prerequisites:
+
+- **Arduino in the controller:** C++ libraries SPI.h and RH_ASK.h
+- **Arduino in the car:** C++ libraries SPI.h and RH_ASK.h
+- **Raspberry Pi:** Python packages time and os
+- **Flask Application:** Python packages flask, paramiko, os, and datetime
+
+## 3. Microcontrollers:
+
+- **Arduino Pro Mini in the car:** used for driving and steering functionality and receiving signals from the Arduino in the controller
+- **Arduino Pro Mini in the controller:** used for sending signals to the Arduino in the car based on the inputs from the controller
+- **Raspberry Pi 3B in the car:** used primarily for camera streaming
 
 ## 4. Hardware Components:
 (refer to the Schematics folder to see the connections)
