@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<style>
+      body {
+        background-color: #c2ae82;
+        font-family: georgia;
+      }
+      #title {
+        text-align: center;
+        font-weight: 900;
+      }
+      @keyframes animated {
+        0% {box-shadow: 0 0 0 0 rgba(255,255,255,0.5);}
+        100% {box-shadow: 0 0 0 15px rgba(255,255,255,0);}
+      }
+      #instr {
+        background-color: #5dbf56;
+        border: 5px outset #54b04d;
+        padding: 1%;
+        border-radius: 10px;
+      }
+      #form_title {
+        color: white;
+      }
+      .form_fillout {
+        background-color: #8a7b5c;
+        margin: auto;
+        border: 5px outset #ad9b74;
+        width: 50%;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border-radius: 10px;
+      }
+      .form_steps {
+        color: white;
+      }
+      #click_submit {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+      }
+      form {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+      }
+      input {
+        width: 100%;
+        box-sizing: border-box;
+        border: 5px outset white;
+        padding: 1%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+      }
+      label {
+        color: white;
+      }
+      input:hover {
+        animation: animated 1s infinite;
+      }
+      #sidebyside {
+        display: flex;
+        padding: 1%;
+      }
+      .cols {
+        padding: 1%;
+      }
+      #doc_link{
+        text-align: center;
+      }
+      #continue {
+        font-size: 100px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+      }
+      .buttons {
+        background-color: #c99336;
+        color: white;
+        border: 5px outset #b5842f;
+        border-radius: 10px;
+        padding: 5%;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .buttons:hover {
+        animation: animated 1s infinite;
+        background-color: #b5842f;
+        border-color: #a6792b;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">RC Car with Camera Stream</h1>
+    <div id="instr">
+      <h3>To see the live stream:</h3>
+      <ol>
+        <li>Check that both the Raspberry Pi and monitor are on the same wifi network</li>
+      	<li>Download VLC Media Player on both the monitor you are watching the stream on and the Raspberry Pi</li>
+       	<li>Download rpi.py onto Raspberry Pi</li>
+       	<li>Enable camera in the Raspberry Pi configurations settings</li>
+       	<li>Run rpi.py on Raspberry Pi</li>
+       	<li>Open tab Media -> Open Network Stream -> add url of Raspberry Pi (ex. http://[insert RPi IP address]:8160)</li>
+      </ol><br>
+    </div>
+    <div id="sidebyside">
+      <div class="form_fillout" class="cols">
+        <h3 id="form_title">Follow the steps below to run rpi.py on your Raspberry Pi through SSH</h3>
+        <form action="/submit" method="post">
+          <input type="text" name="user" placeholder="Raspberry Pi username"></input><br><br>
+          <input type="text" name="host" placeholder="Raspberry Pi hostname"></input><br><br>
+          <input type="text" name="password" placeholder="Raspberry Pi password"></input><br><br>
+          <input type="text" name="rpi_py" placeholder="Path to rpi.py"></input><br><br>
+          <a href='/submit'><input class="buttons" type="submit" name="button1" value="Submit Info"></input></a><br>
+        </form>
+      </div>
+      <div class="buttons" class="cols">
+        <a href="http://127.0.0.1:5000/streaming">
+          <p id="doc_link">Click here to document your stream</p>
+          <p id="continue">>>></p>
+        </a>
+      </div>  
+    </div><br>
+  </body>
+</html>
