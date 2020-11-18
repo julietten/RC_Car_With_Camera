@@ -4,16 +4,16 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 
 ## Contents:
 
-1. Microcontrollers
-2. Prerequisites
-3. Files and Descriptions
-4. Hardware Components
-  a. Controller
-  b. Car
-5. Microcontroller Pinouts
-  a. Arduino in the Controller
-  b. Arduino in the Car
-  c. Raspberry Pi in the Car
+#### 1. Microcontrollers
+#### 2. Prerequisites
+#### 3. Files and Descriptions
+#### 4. Hardware Components
+  ##### a. Controller
+  ##### b. Car
+#### 5. Microcontroller Pinouts
+  ##### a. Arduino in the Controller
+  ##### b. Arduino in the Car
+  ##### c. Raspberry Pi in the Car
 
 ## 1. Microcontrollers:
 
