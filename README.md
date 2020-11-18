@@ -19,12 +19,15 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 (refer to the Schematics folder to see the connections)
 
 ### Controller:
+- Arduino Pro Mini
 - 433 MHz transmitter (in a transmitter and receiver pair)
 - joystick
 - 2x push buttons
 - 2x switches
 
 ### Car:
+- Arduino Pro Mini
+- Raspberry Pi
 - 433 MHz receiver (in a transmitter and receiver pair)
 - 2x L298N motor drivers
 - 4x motors
