@@ -12,7 +12,7 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 
 - **Arduino in the controller:** C++ libraries SPI.h and RH_ASK.h
 - **Arduino in the car:** C++ libraries SPI.h and RH_ASK.h
-- **Raspberry Pi:** Python packages RPi.GPIO, gpiozero, time, and os
+- **Raspberry Pi:** Python packages time and os
 - **Flask Application:** Python packages flask, paramiko, os, and datetime
 
 ## Hardware Components:
