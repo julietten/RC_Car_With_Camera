@@ -45,7 +45,7 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 
 ### Controller:
 - Arduino Pro Mini
-- 433 MHz transmitter (in a transmitter and receiver pair)
+- 433 MHz transmitter and receiver pair
 - joystick
 - 2x push buttons
 - 2x switches
