@@ -1,6 +1,7 @@
 # RC Car with Camera Streaming
 
 This repository was developed for Case Western Reserve University's ECSE 398 senior project course. Contributers to this project are Juliette Naugle, Michael Heeschen, and Avery Gould. The project is to build an RC car that transmits signals, drives and steers, and camera streams over wifi. This repository provides code for two Arduino Pro Minis and a Raspberry Pi 3B along with a user-friendly Flask application to help instruct the user on setting up their own RC car and document their observations while streaming. C++, Python, and HTML with internal CSS are used in the code files.
+---
 
 ## Contents:
 
@@ -14,6 +15,7 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
     a. Arduino in the Controller\
     b. Arduino in the Car\
     c. Raspberry Pi in the Car
+---
 
 ## 1. Files and Descriptions:
 
@@ -26,6 +28,7 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 **flask folder contains:** 
 - stream_webpage.py: user-friendly Flask application Python file
 - templates folder: contains the setup.html and streaming.html templates for the Flask application
+- ---
 
 ## 2. Software Prerequisites:
 
@@ -33,12 +36,14 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 - **Arduino in the car:** C++ libraries SPI.h and RH_ASK.h
 - **Raspberry Pi:** Python packages time and os
 - **Flask Application:** Python packages flask, paramiko, os, and datetime
+- ---
 
 ## 3. Microcontrollers:
 
 - **Arduino Pro Mini in the car:** used for driving and steering functionality and receiving signals from the Arduino in the controller
 - **Arduino Pro Mini in the controller:** used for sending signals to the Arduino in the car based on the inputs from the controller
 - **Raspberry Pi 3B in the car:** used primarily for camera streaming
+- ---
 
 ## 4. Hardware Components:
 (refer to the Schematics folder to see the connections)
@@ -57,6 +62,7 @@ This repository was developed for Case Western Reserve University's ECSE 398 sen
 - 2x L298N motor drivers
 - 4x motors
 - Raspberry Pi camera module
+- ---
 
 ## 5. Microcontroller Pinouts:
 
