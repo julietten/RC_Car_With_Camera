@@ -1,6 +1,7 @@
 # RC Car with Camera Streaming
 
 This repository was developed for Case Western Reserve University's ECSE 398 senior project course. Contributers to this project are Juliette Naugle, Michael Heeschen, and Avery Gould. The project is to build an RC car that transmits signals, drives and steers, and camera streams over wifi. This repository provides code for two Arduino Pro Minis and a Raspberry Pi 3B along with a user-friendly Flask application to help instruct the user on setting up their own RC car and document their observations while streaming. C++, Python, and HTML with internal CSS are used in the code files.
+
 ---
 
 ## Contents:
